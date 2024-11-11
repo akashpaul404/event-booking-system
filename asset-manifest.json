@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/akashpaul404/event-booking-system.git/static/css/main.6002f6ac.css",
+    "main.js": "/akashpaul404/event-booking-system.git/static/js/main.6595ee73.js",
+    "index.html": "/akashpaul404/event-booking-system.git/index.html",
+    "main.6002f6ac.css.map": "/akashpaul404/event-booking-system.git/static/css/main.6002f6ac.css.map",
+    "main.6595ee73.js.map": "/akashpaul404/event-booking-system.git/static/js/main.6595ee73.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6002f6ac.css",
+    "static/js/main.6595ee73.js"
+  ]
+}
