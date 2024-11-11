@@ -1,0 +1,51 @@
+/* EventDetail.css */
+
+.event-detail {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-detail h2 {
+  font-size: 2rem;
+  color: #008080; /* Teal for the heading */
+  margin-bottom: 10px;
+}
+
+.event-detail p {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.book-button {
+  background-color: #ff7f50; /* Orange for the button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-button:hover {
+  background-color: #e67300; /* Darker shade of orange on hover */
+}
+
+.book-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+@media (max-width: 600px) {
+  .event-detail {
+    padding: 15px;
+  }
+
+  .event-detail h2 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,38 @@
+/* Header.css */
+
+.header { 
+  background-color: #008080; /* Teal background */
+  color: white;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  color: #ff7f50; /* Orange for the heading text */
+}
+
+.header nav {
+  display: flex;
+  gap: 15px;
+}
+
+.header nav a {
+  color: #ff7f50; /* Orange for nav links */
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+}

@@ -1,0 +1,42 @@
+/* Pagination.css */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 20px 0;
+}
+
+.pagination button {
+  padding: 8px 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 1px solid #008080; /* Teal border */
+  border-radius: 4px;
+  background-color: #ff7f50; /* Orange background */
+  color: white; /* White text */
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.pagination button:hover {
+  background-color: #008080; /* Teal background on hover */
+  color: white; /* Maintain white text */
+}
+
+.pagination button.active {
+  background-color: #008080; /* Teal background for active button */
+  color: white; /* White text */
+}
+
+.pagination button:disabled {
+  background-color: #ccc; /* Grey background for disabled state */
+  color: white; /* White text */
+  cursor: not-allowed;
+}
+
+@media (max-width: 600px) {
+  .pagination button {
+    padding: 6px 10px;
+    font-size: 0.9rem;
+  }
+}
